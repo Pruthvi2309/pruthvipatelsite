@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Program1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<form method="POST" action="index.html">
+        <div class="formm">
+            <h2>Bus Booking Form</h2>
+            <h2>Patel Pruthvi - 190023107006</h2>
+        </div>
+        <div class="reg-detail">
+            <br>
+            <label><b>First Name:-</b></label>
+            <input type="text" placeholder="Enter Your First Name" name="fname" id="fname"><br>
+            <label><b>Last Name:-</b></label>
+            <input type="text" placeholder="Enter Your Last Name" name="Lname" id="lname"><br>
+            <label><b>Phone No:-</b></label>
+            <input type="text" placeholder="Enter Your Phone Number" name="phone" id="phone"><br>
+            <label><b>Email Add:-</label>
+            <input type="text" placeholder="Enter Your Email Address" name="email" id="email"><br>
+            <label><b>Date & Time</b></label>
+            <input type="date"  name="date" id="date"><br>
+            <label><b>Source : </label>
+              <select class="city">
+                <option value="1">Ahmedabad</option>
+                <option value="2">Surat</option>
+                <option value="3">Gandhinagar</option>
+                <option value="4">Rajkot</option>
+              </select>
+              <br>
+              <label><b>Destination :</label>
+                <select class="city">
+                  <option value="1">Surat</option>
+                  <option value="2">Gandhinagar</option>
+                  <option value="2">Rajkot</option>
+                  <option value="4">Ahmedabad</option>
+                </select>
+                <br>
+                <label><b>Seats :</label>
+                  <select class="city">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">1</option>
+                    <option value="6">2</option>
+                    <option value="7">3</option>
+                    <option value="8+">4</option>
+                  </select>
+                  <br>
+            <br>
+        </div>
+    </form>
+    <script>
+      function myFunction() {
+          alert("Payment is Successfully Done!!!");
+      }
+  </script>
+    <div class="regbtn">
+        <button onclick="myFunction()">Proceed To Pay</button>
+    </div>
+</body>
+</html>
